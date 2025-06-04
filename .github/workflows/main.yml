@@ -72,4 +72,4 @@ jobs:
           git add deploy/deploy.yaml
           git commit -m "Update deploy.yaml with new image version - ${{ env.VERSION }}"
 
-          git push origin master
+          git push origin main
